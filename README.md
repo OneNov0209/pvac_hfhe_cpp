@@ -17,9 +17,9 @@ ps: look at the attachments.
 
 | requirement | ver |
 |-------------|---------|
-| C++ Standard | C++17 or later |
-| Compiler | GCC 9+, Clang 10+, MSVC 2019+ |
-| CPU | x86-64 with PCLMUL (recommended) |
+| c++ stand | C++17 or later |
+| compiler | GCC 9+, Clang 10+, MSVC 2019+ |
+| cpu | x86-64 with PCLMUL (recommended) |
 
 ### installation 
 
