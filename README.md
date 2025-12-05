@@ -21,9 +21,8 @@ ps: look at the attachments.
 | Compiler | GCC 9+, Clang 10+, MSVC 2019+ |
 | CPU | x86-64 with PCLMUL (recommended) |
 
-### installation
+### installation 
 
-pvac-hfhe is header-only, please clone and include:
 ```bash
 git clone https://github.com/octra-labs/pvac_hfhe_cpp.git
 cd pvac-hfhe-cpp
@@ -42,7 +41,7 @@ make test-ct
 make test-hg
 ```
 
-### a simple example
+### example
 ```cpp
 #include <iostream>
 #include <pvac/pvac.hpp>
@@ -74,7 +73,6 @@ int main() {
 }
 ```
 
-compile and run:
 ```bash
 g++ -std=c++17 -O2 -march=native -I./include example.cpp -o example
 ./example
@@ -85,7 +83,7 @@ g++ -std=c++17 -O2 -march=native -I./include example.cpp -o example
 | parameter | value | description |
 |-----------|-------|-------------|
 | n | 4096 | lpn dimension |
-| τ | 1/8 | noise rate |
+| tau | 1 div 8 | noise rate |
 | Fp | 2^127−1 | prime field |
 | m | 8192 | hypergraph bit-width |
 
