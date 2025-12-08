@@ -110,7 +110,7 @@ inline void guard_budget(const PubKey& pk, Cipher& C, const char* where) {
     }
 }
 
-// Optimized: lightweight XOR mixing instead of expensive prg_layer_ztag
+// ndt
 inline Fp prf_noise_delta(const PubKey& pk, const SecKey& sk,
                           const RSeed& base_seed, uint32_t group_id, uint8_t kind) {
     RSeed s2 = base_seed;
