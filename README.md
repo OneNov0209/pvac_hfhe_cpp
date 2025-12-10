@@ -2,7 +2,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Version-0.1.0-blue?style=flat-square">
   <img src="https://img.shields.io/badge/C%2B%2B-17-blue?style=flat-square">
-  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square">
+  <img src="https://img.shields.io/badge/License-GPL-green?style=flat-square">
 <hr/>
 proof of concept implementation of pvac-hfhe, which is based on the assumption of binary parity for learning with noise and arithmetic on a 127-bit prime field. 
 
